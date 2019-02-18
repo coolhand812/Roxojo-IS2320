@@ -1,15 +1,12 @@
 <html>
 	<head>
-		<title>Login Page</title>
+		<title>RUXOJO Project</title>
 		<link rel="stylesheet" type="text/css" href="style.css" />
 	</head>
 
 	<body>
 		<div id="container">
-			<div id="header">
-				<h1>Joe's Website</h1>
-			</div>
-			
+
 			<div id="content">
 				<div id="nav">
 					<h3>Navigation</h3>
