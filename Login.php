@@ -11,14 +11,12 @@
 				<div id="nav">
 					<h3>Navigation</h3>
 					<ul>
-						<li>Home</li>
-						<li>About</li>
-						<li>Contact</li>
+						<li>Login Page</li>
 					</ul>
 				</div>
 				
 				<div id="header2">
-					<h2>Date/Time Assignment</h2>
+					<h2>Login Page?</h2>
 				</div>
 				
 				<div id="main">
