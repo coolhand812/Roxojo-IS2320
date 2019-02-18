@@ -1,38 +1,38 @@
-body{
+body{ /* This is the body default setting */
 	background-color: #D3D3D3;
 	font-family: Garamond, Helvetica, sans-serif;
 }
 
-#container{
-	background-color: white;
+#container{ /* This is the information page settings */
+	background-color: rgb(228, 93, 93);
 	width:950px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#nav{
+#nav{	/* These are the navigation bar settings */
 	width: 130px;
 	float: left;
-	color: red;
+	color: red;		/* font color */
 }
 
-#nav ul{
+#nav ul{	/* navigation bar position */
 	list-style-type: none;
 	padding: 0;
 }
 
-#header{
-	background-color: #0000CD;
+#header{ /* This is the page's main header */
+	background-color: rgb(73, 145, 141);
 	text-align: center;
 	color: #FFFF00;
 	padding: 10px;
 }
 
-h1,h2{
+h1,h2{	/* sets the margins for headers 1 & 2 */
 	margin: 0;
 }
 
-#header2{
+#header2{	/* font settings header 2 */
 	text-align: center;
 	color: #0000CD;
 	float: center;
