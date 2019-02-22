@@ -44,7 +44,7 @@ h1,h2{	/* sets the margins for headers 1 & 2 */
 
 #main{
 	width: 800px;
-	float: right;
+	float: center;
 }
 
 #content{
