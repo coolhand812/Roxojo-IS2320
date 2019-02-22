@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>RUXOJO Project</title>
+		<title>Administrator Menu</title>
 		<link rel="stylesheet" type="text/css" href="style.css" />
 	</head>
 
@@ -20,9 +20,9 @@
 					</ul>
 				</div>
 				
-				<div id="header2">
+				<!--<div id="header2">
 					<h2>Administrator Menu</h2>
-				</div>
+				</div>-->
 				
 				<div id="main">
 
