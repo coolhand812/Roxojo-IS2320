@@ -27,6 +27,7 @@ body{ /* This is the body default setting */
 
 #header{ /* This is the page's main header */
 	background-color: rgb(73, 145, 141);
+	width:950px;
 	text-align: center;
 	color: #FFFF00;
 	padding: 10px;
