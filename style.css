@@ -13,12 +13,17 @@ body{
 #nav{
 	width: 130px;
 	float: left;
-	color: red;
+	color: rgb(53, 3, 3);
 }
 
 #nav ul{
 	list-style-type: none;
 	padding: 0;
+}
+
+#nav li{
+	display: inline;
+	color: rgb(17, 0, 255);
 }
 
 #header{
