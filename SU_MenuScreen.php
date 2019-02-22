@@ -7,7 +7,7 @@
 	<body>
 
     <div id="header">
-				<h1><img src="UASLP_logo.png" alt="UASLP logo" style="width:170px;height:170px;margin-right:15px;"> UASLP / CityU of Seattle</h1>
+				<h1><img src="UASLP_logo.png" alt="UASLP logo" style="width:150px;height:170px;margin-right:300px;"> UASLP / CityU of Seattle</h1>
 			</div>
 
 		<div id="container">
