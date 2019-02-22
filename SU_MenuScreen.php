@@ -8,9 +8,9 @@
 
     <div id="header">
 				<h1><img src="UASLP_logo.png" alt="UASLP logo" 
-				style="width:150px;height:170px;margin-right:300px;"> UASLP / CityU of Seattle 
+				style="width:150px;height:170px;margin-right:200px;"> UASLP / CityU of Seattle 
 				<img src="CityU_logo.png" alt="CityU logo" 
-				style="width:250px;height:120px;margin-left:300px;"></h1>
+				style="width:250px;height:120px;margin-left:200px;"></h1>
 			</div>
 
 		<div id="container">
