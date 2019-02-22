@@ -26,7 +26,7 @@
 				
 				<div id="main">
 
-                <img src="biohazard.png" alt="Biohazard Symbol" width="500" height="600">		
+                <img src="biohazard.png" alt="Biohazard Symbol" width="500" height="500">		
 				<p>	
                 You are accessing a UASLP Information System (IS) that is provided for UASLP-authorized use only.
 				</p>
