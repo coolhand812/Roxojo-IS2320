@@ -29,6 +29,7 @@ body{ /* This is the body default setting */
 	background-color: rgb(73, 145, 141);
 	width:950px;
 	text-align: center;
+	float: center;
 	color: #FFFF00;
 	padding: 10px;
 }
