@@ -22,6 +22,8 @@
                         <li>Annual Faculty Report</li>
                         <li>Modify THIS account</li>
                         <li>Modify User Account</li>
+                        <li>Logout</li>
+                        <li>about</li>
 					</ul>
 				</div>
 				
