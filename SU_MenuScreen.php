@@ -5,6 +5,11 @@
 	</head>
 
 	<body>
+
+    <div id="header">
+				<h1>UASLP / CityU of Seattle</h1>
+			</div>
+
 		<div id="container">
 
 			<div id="content">
