@@ -13,11 +13,11 @@ body{ /* This is the body default setting */
 #nav{	/* These are the navigation bar settings */
 	width: 130px;
 	float: left;
-	color: red;		/* font color */
 }
 
 #nav li {
 	display: inline;
+	color: rgb(55, 0, 255);		/* font color */
   }
 
 #nav ul{	/* navigation bar position */
