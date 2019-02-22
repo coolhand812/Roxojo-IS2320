@@ -1,44 +1,38 @@
-body{ /* This is the body default setting */
+body{
 	background-color: #D3D3D3;
 	font-family: Garamond, Helvetica, sans-serif;
 }
 
-#container{ /* This is the information page settings */
-	background-color: rgb(253, 252, 252);
+#container{
+	background-color: white;
 	width:950px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#nav{	/* These are the navigation bar settings */
+#nav{
 	width: 130px;
 	float: left;
+	color: red;
 }
 
-#nav li {
-	display: inline;
-	color: rgb(55, 0, 255);		/* font color */
-  }
-
-#nav ul{	/* navigation bar position */
+#nav ul{
 	list-style-type: none;
 	padding: 0;
 }
 
-#header{ /* This is the page's main header */
-	background-color: rgb(73, 145, 141);
-	width:950px;
+#header{
+	background-color: #0000CD;
 	text-align: center;
-	float: center;
 	color: #FFFF00;
 	padding: 10px;
 }
 
-h1,h2{	/* sets the margins for headers 1 & 2 */
+h1,h2{
 	margin: 0;
 }
 
-#header2{	/* font settings header 2 */
+#header2{
 	text-align: center;
 	color: #0000CD;
 	float: center;
@@ -46,13 +40,7 @@ h1,h2{	/* sets the margins for headers 1 & 2 */
 
 #main{
 	width: 800px;
-	float: center;
-}
-
-#main p {
-	text-align: center;
-	color: red;
-	float: center;
+	float: right;
 }
 
 #content{
@@ -63,6 +51,6 @@ h1,h2{	/* sets the margins for headers 1 & 2 */
 	clear: both;
 	text-align: right;
 	padding: 10px;
-	background-color: #da0e0e6e;
+	background-color: #800000;
 	color: white;
 }
