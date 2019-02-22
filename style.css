@@ -22,8 +22,13 @@ body{
 }
 
 #nav li{
-	display: inline;
+	/*display: inline;*/
+	margin-right: 40px;
 	color: rgb(17, 0, 255);
+}
+
+.nav2 li {
+    margin-right: 10px;
 }
 
 #header{
