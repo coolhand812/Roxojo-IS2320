@@ -16,6 +16,10 @@ body{ /* This is the body default setting */
 	color: red;		/* font color */
 }
 
+#nav li {
+	display: inline;
+  }
+
 #nav ul{	/* navigation bar position */
 	list-style-type: none;
 	padding: 0;
