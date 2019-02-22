@@ -47,6 +47,12 @@ h1,h2{	/* sets the margins for headers 1 & 2 */
 	float: center;
 }
 
+#main p {
+	text-align: center;
+	color: red;
+	float: center;
+}
+
 #content{
 	padding: 10px;
 }
