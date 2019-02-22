@@ -12,10 +12,15 @@
 					<h3>Navigation</h3>
 					<ul>
 						<li>Add Student</li>
+
                         <li>Student Lookup</li>
+
                         <li>Monthly Faculty Report</li>
+
                         <li>Annual Faculty Report</li>
+
                         <li>Modify THIS account</li>
+                        
                         <li>Modify User Account</li>
 					</ul>
 				</div>
