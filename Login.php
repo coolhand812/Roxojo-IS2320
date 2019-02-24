@@ -21,7 +21,7 @@
 				
 				<div id="main">
 						
-				<h2>Login Page?</h2>	
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur eaque tempora veritatis sint praesentium blanditiis, quae enim cum reprehenderit beatae. Ipsum esse excepturi similique cumque alias nostrum fuga accusamus et.</p>	
 					
 				</div>
 				

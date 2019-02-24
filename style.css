@@ -1,13 +1,16 @@
 body{
-	background-color: #D3D3D3;
-	font-family: Garamond, Helvetica, sans-serif;
+	background-color: rgb(103, 113, 247);
+	font: normal 16px Arial, Helvetica, sans-serif;
+	line-height: 1.5em;
+	margin: 0;
 }
 
 #container{
 	background-color: white;
-	width:950px;
-	margin-left: auto;
-	margin-right: auto;
+	width:70%;
+	margin: 5px;
+	border: 5px blue solid;
+	padding: 10px;
 }
 
 #nav{
@@ -24,7 +27,7 @@ body{
 #nav li{
 	display: inline;
 	margin-right: 40px;
-	color: rgb(17, 0, 255);
+	color: rgb(119, 16, 216);
 }
 
 .nav2 li {
