@@ -6,6 +6,7 @@ body{
 }
 
 #container{
+	/* needs backround image*/
 	background-color: white;
 	width:70%;
 	margin: 5px;
@@ -14,14 +15,15 @@ body{
 }
 
 #nav{
-	width: 130px;
+	background-color: rgb(8, 8, 8);
+	width: 150px;
 	float: left;
-	color: rgb(53, 3, 3);
+	font: rgb(241, 234, 234);
 }
 
 #nav ul{
 	list-style-type: none;
-	padding: 0;
+	padding: 5px;
 }
 
 #nav li{
