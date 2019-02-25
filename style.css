@@ -15,27 +15,27 @@ body{
 }
 
 #nav{
-	background-color: rgb(8, 8, 8);
-	width: 150px;
+	background-color: rgb(250, 246, 246);
+	width: 182px;
 	float: left;
-	font: rgb(241, 234, 234);
-	padding: 5px;
+	font: rgb(119, 16, 216);
+	padding: 10px;
 	border-radius: 15px;
+}
+
+#nav h2{
+	text-align: center;
 }
 
 #nav ul{
 	list-style-type: none;
-	padding: 5px;
+	padding: 0;
 }
 
 #nav li{
 	display: inline;
-	margin-right: 40px;
+	margin-right: 10px;
 	color: rgb(119, 16, 216);
-}
-
-.nav2 li {
-    margin-right: 10px;
 }
 
 #header{
