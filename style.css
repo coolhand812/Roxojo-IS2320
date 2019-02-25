@@ -62,6 +62,18 @@ a:visited{
 	padding: 10px;
 }
 
+#image1{
+	padding: 2px;
+	border:1px rgb(10, 10, 10) solid;
+	float: left;
+}
+
+#image2{
+	padding: 2px;
+	border:1px rgb(10, 10, 10) solid;
+	float: right;
+}
+
 h1,h2{
 	margin: 0;
 }
