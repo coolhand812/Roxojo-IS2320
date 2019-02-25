@@ -59,7 +59,15 @@ a:visited{
 	background-color: rgba(2, 2, 75, 0.993);
 	text-align: center;
 	color: gold;
-	padding: 10px;
+	padding: 5px;
+	padding-bottom: 120px;
+}
+
+#header h1{
+	position: absolute;
+  	left: 450px;
+	top: 40px;
+	font: normal 48px Impact, Charcoal, sans-serif;  
 }
 
 #image1{
@@ -100,5 +108,5 @@ h1,h2{
 	text-align: right;
 	padding: 10px;
 	background-color: #800000;
-	font: white;
+	color: rgb(143, 135, 135);
 }
