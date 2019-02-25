@@ -19,6 +19,8 @@ body{
 	width: 150px;
 	float: left;
 	font: rgb(241, 234, 234);
+	padding: 5px;
+	border-radius: 15px;
 }
 
 #nav ul{
