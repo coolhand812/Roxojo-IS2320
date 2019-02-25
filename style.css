@@ -5,12 +5,28 @@ body{
 	margin: 0;
 }
 
+a{
+	color: rgb(119, 16, 216);
+}
+
+a:hover{
+	color:green;
+}
+
+a:active{
+	color:red;
+}
+
+a:visited{
+	color: black;
+}
+
 #container{
 	/* needs backround image*/
 	background-color: white;
-	width:70%;
+	widows: 80%;
 	margin: 5px;
-	border: 5px blue solid;
+	border: 5px rgb(2, 2, 75, 0.993) solid;
 	padding: 10px;
 }
 
@@ -18,8 +34,10 @@ body{
 	background-color: rgb(250, 246, 246);
 	width: 182px;
 	float: left;
+	border:1px rgb(110, 109, 109) solid;
 	font: rgb(119, 16, 216);
-	padding: 10px;
+	padding: 0;
+	padding-left: 20px;
 	border-radius: 15px;
 }
 
@@ -28,20 +46,19 @@ body{
 }
 
 #nav ul{
-	list-style-type: none;
+	list-style-type: square; 
 	padding: 0;
 }
 
 #nav li{
-	display: inline;
-	margin-right: 10px;
-	color: rgb(119, 16, 216);
+	padding-bottom: 6px;
+	border-bottom: dotted 1px #333;
 }
 
 #header{
-	background-color: #0000CD;
+	background-color: rgba(2, 2, 75, 0.993);
 	text-align: center;
-	color: #FFFF00;
+	color: gold;
 	padding: 10px;
 }
 
@@ -49,9 +66,9 @@ h1,h2{
 	margin: 0;
 }
 
-#header2{
+#header2{ 
 	text-align: center;
-	color: #0000CD;
+	color: rgb(2, 2, 75, 0.993);
 	float: center;
 }
 
@@ -69,5 +86,5 @@ h1,h2{
 	text-align: right;
 	padding: 10px;
 	background-color: #800000;
-	color: white;
+	font: white;
 }
