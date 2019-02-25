@@ -30,6 +30,13 @@ a:visited{
 	padding: 10px;
 }
 
+.button{
+	background-color: black;
+	color: #fff;
+	padding: 10px 15px;
+	border: none;
+}
+
 #nav{
 	background-color: rgb(250, 246, 246);
 	width: 182px;
@@ -99,8 +106,21 @@ h1,h2{
 	float: right;
 }
 
-#form-group{
-	
+.index-form{
+	padding: 30px;
+}
+
+.index-form.form-group{
+	padding-bottom: 15px;
+}
+
+.index-form label{
+	display: block;
+}
+
+.index-form input[type="text"]{
+	padding: 8px;
+	width: 50%;
 }
 
 #content{
