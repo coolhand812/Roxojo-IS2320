@@ -65,12 +65,14 @@ a:visited{
 #image1{
 	padding: 2px;
 	border:1px rgb(10, 10, 10) solid;
+	border-radius: 8px;
 	float: left;
 }
 
 #image2{
 	padding: 2px;
 	border:1px rgb(10, 10, 10) solid;
+	border-radius: 8px;
 	float: right;
 }
 
