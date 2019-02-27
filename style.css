@@ -123,7 +123,7 @@ h1,h2{
 	width: 50%;
 }
 
-#content{
+#content{  /* buffer between upper main text and header */
 	padding: 10px;
 }
 
