@@ -3,7 +3,7 @@
     $error='';          // Variable To Store Error Message
     if (isset($_POST['submit'])) {      // Verifies submit was selected
         if (empty($_POST['username']) || empty($_POST['password'])) {   //checks fields are not empty
-            $error = "Username or Password is invalid";     // displays message if either or both are empty
+            $error = "Username or Password is invalid";     // displays message if either field is empty
         }
         else {
             // Define $username and $password
@@ -15,7 +15,8 @@
             
             // SQL query to fetch information of registerd users and finds user match.
             // add MD5 to pswd
-            $stmt = $db->prepare("SELECT user_name, password FROM admin_table WHERE user_name=? AND password=(?)");
+            $stmt = $db->prepare("SELECT username FROM admin_table WHERE username= '$username' AND
+             password= '$password'");
             $stmt->bind_param('ss', $username, $password); 
             $stmt->execute();
             $stmt->store_result();
@@ -24,8 +25,9 @@
                 $error = "Username or Password is invalid";
                 
             } else {
+                session_register("myusername");
                 $_SESSION['login_user']=$username; // Initializing Session
-                //header ("location:gmapsFinder.php");
+                
             }
             mysqli_close($db); // Closing Connection
         }
