@@ -18,7 +18,7 @@
             // add MD5 to pswd
             $stmt = $db->prepare("SELECT user_name FROM admin_table WHERE user_name= '$username' AND
              p_word= '$password' AND user_level= '$userlvl'");
-            $stmt->bind_param('ss', $username, $password); 
+            $stmt->bind_param('ss', $username, $password, $userlvl); 
             $stmt->execute();
             $stmt->store_result();
             
