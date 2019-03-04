@@ -33,7 +33,7 @@
                 }else{
                     session_register("myusername");
                     $_SESSION['login_user']=$username; // Initializing Session
-                    header("Location: U_Menuscreen.html");
+                    header("Location: User_Menuscreen.html");
                 }
             }
             mysqli_close($db); // Closing Connection
