@@ -17,8 +17,8 @@
             // SQL query to fetch information of registerd users and finds user match.
             // add MD5 to pswd
             $stmt = $db->prepare("SELECT user_name FROM admin_table WHERE user_name= '$username' AND
-             p_word= '$password' AND user_level= '$userlvl'");
-            $stmt->bind_param('ss', $username, $password, $userlvl); 
+             p_word= '$password'");
+            $stmt->bind_param('ss', $username, $password); 
             $stmt->execute();
             $stmt->store_result();
             
@@ -27,11 +27,9 @@
                 
             } else {
                 if($_SESSION['user_level'] == 1){
-                    session_register("myusername");
                     $_SESSION['login_user']=$username; // Initializing Session
                     header("Location: SU_Menuscreen.html");
                 }else{
-                    session_register("myusername");
                     $_SESSION['login_user']=$username; // Initializing Session
                     header("Location: User_Menuscreen.html");
                 }
