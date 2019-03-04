@@ -25,10 +25,9 @@
             // add MD5 to pswd
             $sql = "SELECT id FROM admin_table WHERE user_name= '$username' AND
              p_word= '$password'";
+
             //$userlvl=$_SESSION['user_level'];
             $result = mysqli_query($db,$sql);
-            $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
-            $active = $row['active'];
             $count = mysqli_num_rows($result);
             if ($count == 0) {
                 $error = "Username or Password is invalid";
