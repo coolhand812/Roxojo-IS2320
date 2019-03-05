@@ -20,21 +20,26 @@
             printf("Connect failed: %s\n", mysqli_connect_error());
             exit();
             }
-
+            
+            /*echo $username;
+            echo $password;*/
+            
             // SQL query to fetch information of registerd users and finds user match.
             // add MD5 to pswd
-            $sql = "SELECT id FROM admin_table WHERE user_name= '$username' AND
+            $sql = "SELECT user_level FROM admin_table WHERE user_name= '$username' AND
              p_word= '$password'";
 
-            //$userlvl=$_SESSION['user_level'];
             $result = mysqli_query($db,$sql);
+            $row = mysqli_fetch_row($result);
+            $userlvl = $row[0];
             $count = mysqli_num_rows($result);
+
             if ($count == 0) {
                 $error = "Username or Password is invalid";
-                echo $error;
-                
+                echo $error;    
             } else {
-                if($_SESSION['user_level'] == 1){
+
+                if($userlvl == 1){
                     $_SESSION['login_user']=$username; // Initializing Session
                     header("Location: SU_Menuscreen.html");
                 }else{
