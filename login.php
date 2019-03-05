@@ -8,21 +8,19 @@
             echo $error;    // displays message if either field is empty     
         }
         else {
-            // Define $username and $password
-            $username=$_POST['username'];
-            $password=$_POST['password'];
-            
+
             // Establishing Connection with Server by passing server_name, user_id and password as a parameter
             $db = new mysqli("localhost", "root", "", "ruxojo_accountsreceivable") OR die(mysql_error());
 
-            /* check connection */
+            // Define $username and $password with escape variables for security
+            $username=mysql_real_escape_string($db, $_POST['username']);
+            $password=mysql_real_escape_string($db, $_POST['password']);
+
+            //check connection
             if (mysqli_connect_errno()) {
             printf("Connect failed: %s\n", mysqli_connect_error());
             exit();
             }
-            
-            /*echo $username;
-            echo $password;*/
             
             // SQL query to fetch information of registerd users and finds user match.
             // add MD5 to pswd
